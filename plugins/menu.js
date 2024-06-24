@@ -320,24 +320,15 @@ ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
       𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫 ✅𝘟5
-▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰`
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
       
-                  
-                }),
-            nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-              buttons: [
-                {
-                  "name": "single_select",
-                  "buttonParamsJson": `{"title":"🕳 𝐓𝐀𝐏 𝐓𝐎 𝐎𝐏𝐄𝐍 𝐌𝐄𝐍𝐔 🕳",
-                 "sections":
-                   [{
-                    "title":"🛸 𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓",
-                    "highlight_label":"💿 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔",
-                    "rows":[
-                      {
-                       "header":"",
-                       "title":"🔰 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔"
+              
 ${readmore}`;
+      {
+        
+conn.sendButton(m.chat, text.replace(), author, pp, [['Script 🌹', '.script'], ['Bot Speed 🚀', '.ping']], null, [['Follow Owner 🫣', smlink], ['Join Group 🥰', gclink]], m);
+     
+     
 
       for (const category in categorizedCommands) {
         menuText += `
