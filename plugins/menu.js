@@ -320,7 +320,31 @@ ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
       𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫 ✅𝘟5
-▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰`
+                  }),
+            footer: proto.Message.InteractiveMessage.Footer.create({
+              text: "> *©𝟐𝟎𝟐𝟒 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 𝐕𝟓* \n> *ᴍᴀᴅᴇ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ*"
+            }),
+            header: proto.Message.InteractiveMessage.Header.create({
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/gifted.jpg')}, { upload: Matrix.waUploadToServer})), 
+                  title: ``,
+                  gifPlayback: true,
+                  subtitle: "",
+                  hasMediaAttachment: false  
+                }),
+            nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+              buttons: [
+                {
+                  "name": "single_select",
+                  "buttonParamsJson": `{"title":"🕳 𝐓𝐀𝐏 𝐓𝐎 𝐎𝐏𝐄𝐍 𝐌𝐄𝐍𝐔 🕳",
+                 "sections":
+                   [{
+                    "title":"🛸 𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓",
+                    "highlight_label":"💿 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔",
+                    "rows":[
+                      {
+                       "header":"",
+                       "title":"🔰 𝐀𝐋𝐋 𝐌𝐄𝐍𝐔",
 ${readmore}`;
 
       for (const category in categorizedCommands) {
