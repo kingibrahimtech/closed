@@ -200,6 +200,7 @@ smd(
     }
   }
 ); */
+/**
 astro_patch.smd(
   {
     cmdname: "menu",
@@ -1310,3 +1311,4 @@ smd(
   }
 );
 let pmtypes = ["videoMessage", "imageMessage"];
+**/
