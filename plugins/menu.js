@@ -1,4 +1,4 @@
-/**
+
 const os = require("os");
 const fs = require("fs");
 const Config = require("../config");
@@ -200,7 +200,7 @@ smd(
     }
   }
 ); */
-/**
+
 astro_patch.smd(
   {
     cmdname: "menu",
@@ -311,26 +311,19 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
 ${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
-${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length
 ${menuThemeFooter}                         
-▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-      𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫 ✅𝘟5
-▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-      
-              
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱
+      𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫 
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱
+*HEY🖐️*  _${m.pushName}_
+
+> *BOT DEVELOPER*
+> *𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔*
 ${readmore}`;
-      {
-        
-conn.sendButton(m.chat, text.replace(), author, pp, [['Script 🌹', '.script'], ['Bot Speed 🚀', '.ping']], null, [['Follow Owner 🫣', smlink], ['Join Group 🥰', gclink]], m);
-     
-     
+      
 
       for (const category in categorizedCommands) {
         menuText += `
