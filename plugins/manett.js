@@ -740,7 +740,7 @@ AdminFunction.cmd({
   'category': "UPDATES",
   'filename': __filename
 }, async _0x2f2db6 => {
-  const _0x3009a0 = "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟:\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l\n\n " + Config.botname + " ";
+  const _0x3009a0 = "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟:\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaYauj4xvi1l\n\n " + Config.botname + " ";
   const _0x45011b = {
     'forwardingScore': 0x3e7,
     'isForwarded': true
