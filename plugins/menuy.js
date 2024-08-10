@@ -1,4 +1,4 @@
-/**
+
 
 import moment from 'moment-timezone';
 import fs from 'fs';
@@ -905,4 +905,4 @@ ${readmore}
 };
 
 export default test;
-**/
+
